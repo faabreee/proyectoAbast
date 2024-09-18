@@ -1,0 +1,36 @@
+		body, html {
+            height: 100%;
+            margin: 0;
+            overflow: hidden;
+        }
+        #contenedor {
+            position: relative;
+            width: 100%;
+            height: 100%;
+        }
+        aside {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            z-index: 1;
+            background: rgba(255, 255, 255, 0.8);
+            padding: 20px;
+            text-align: center; /* Alinea el contenido al centro */
+        }
+        .logo {
+            margin-top: -50px; /* Ajusta según el tamaño de la imagen */
+        }
+        section {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 0;
+        }
+        section img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
